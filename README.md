@@ -1,5 +1,7 @@
 # DownloadManager
 sample download manager application
+![image](https://github.com/dotrunghieu2003/DownloadManager/assets/22995357/b96ad6c8-9c06-4bcf-bb4d-437c5cfbb49e)
+
 check out repository to local PC, then go to folder downdload run Maven command
  mvn exec:java@FileServer
 ![image](https://github.com/dotrunghieu2003/DownloadManager/assets/22995357/bf543030-3d16-412e-a1cd-dedb90bf92f5)
