@@ -11,9 +11,7 @@ public class FileServer {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(8080); // Change the port number if needed
-
             System.out.println("Server Listen on Port:8080 ...");
-
             while (true) {
                 try {
                     Socket clientSocket = serverSocket.accept();

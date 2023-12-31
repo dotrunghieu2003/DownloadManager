@@ -14,4 +14,39 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>FileClient</id>
+                        <phase>package</phase> <!-- Adjust the phase as needed -->
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.sample.client.FileClient</mainClass> <!-- Replace with your main class name -->
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>FileServer</id>
+                        <phase>package</phase> <!-- Adjust the phase as needed -->
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.sample.server.FileServer</mainClass> <!-- Replace with your main class name -->
+                        </configuration>
+                    </execution>
+
+                    <!-- Add more <execution> blocks for additional classes -->
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>

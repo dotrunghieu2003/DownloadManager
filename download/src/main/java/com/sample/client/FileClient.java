@@ -14,7 +14,7 @@ public class FileClient {
 
         try (Socket socket = new Socket("localhost", 8080);
              PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), true);) {
-            socket.setSoTimeout(3000);
+            socket.setSoTimeout(2000);
             Scanner scanner = new Scanner(System.in);
 
             String userInput = getAction(scanner);
