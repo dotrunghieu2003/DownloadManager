@@ -16,6 +16,11 @@ command list all files exists in Server
 command download file exists from Server
 ![image](https://github.com/dotrunghieu2003/DownloadManager/assets/22995357/edc94d56-9335-4803-b71f-e84e2cb4ed4c)
 
+Command guideline:
+1. index --> list out all of file in folder resources
+2. get <file> --> download file
+3. q / quit --> quit and close connection
+
 
 
 
