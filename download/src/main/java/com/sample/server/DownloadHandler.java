@@ -14,10 +14,10 @@ public class DownloadHandler {
         System.out.println("Handle list Files...");
         try {
             Path paths =  Paths.get(ConstantManager.ROOT_DIRECTORY);
+            StringBuffer buffer = new StringBuffer();
             Files.walk(paths)
                     .filter(Files::isRegularFile)
-                    .forEach(path -> out.println(path.getFileName()));
-            out.flush();
+                    .forEach(path ->  out.println(path.toFile().getName()));
         } catch (IOException e) {
             out.println("Error listing files");
             e.printStackTrace();

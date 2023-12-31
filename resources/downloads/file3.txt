@@ -1,0 +1,17 @@
+2/ Coding exercise
+Implement a File server & Download Manager (CLI)
+Requirements for the server:
+- Use of sockets over TCP/IP
+- serve a list of available files (of arbitrary format) from a specified
+directory (and subdirectories)
+- supported commands:
++ "index" to list out all the available files
++ "get <file-name>". Response with either "ok" or "error":
+The "ok" message will be followed with the content of the file
+The "error" message indicates that the specified file does not exist on
+the server
++ "quit" or "q" to quit for the client program
++ "unknown command" response for others
+Requirements for the client:
+- issue server-supported commands and handle responses
+- select a file to download
