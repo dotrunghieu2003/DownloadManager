@@ -1,0 +1,21 @@
+1/ System design
+With current pandemic, teachers are forced to provide their lessons to students
+via Internet. Your task is to design a Learning Management System (LMS) to assist a
+high school teacher in providing the courses online. The system at minimum should
+have
+* Functional requirement
+- Ability for teacher to add course material such as slides, video, audio clip
+and online quiz
+- Ability to allow student to register to the course with email address, view the
+available material and submit quiz and writing assignment
+- Teacher can view each student record and course progress i.e complete 3 out of
+5 quiz
+* Some non-functional requirements
+- Class can have up to 40 students per course but there could be used by multiple
+teachers so the system should be able to scale up and handle high load i.e final
+exam where all student need to log in and doing online exam in real time
+* Delivery expectation
+- Design documents such as Entity relation diagram
+- List of components and their purposes
+- Technology stack you would like to use
+- UI is not a strong focus

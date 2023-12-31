@@ -1,0 +1,9 @@
+
+f
+java:S2095 "DUse try-with-resources or close this "Stream" in a "finally" clause.(ÙØ·ıÿÿÿÿ8­§ÇïË1
+f
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(èÅÔ–ÿÿÿÿÿ8­§ÇïË1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(û™Ôÿÿÿÿÿ8¯§ÇïË1
+G	java:S106"+Replace this use of System.out by a logger.(¯ô§Ç8¬¦ßïË1
+L	java:S106"+Replace this use of System.out by a logger.(õŒÇÙøÿÿÿÿ8»àïË1
