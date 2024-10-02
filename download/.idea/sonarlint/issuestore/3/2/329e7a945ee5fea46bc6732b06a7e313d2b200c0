@@ -1,8 +1,7 @@
 
-g
-java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(•ı‰™8ôÖáïË1
-D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ôÖáïË1
-L	java:S106"+Replace this use of System.out by a logger.(«Ò®¾şÿÿÿÿ8ˆ¹ïË1
-G	java:S106"+Replace this use of System.out by a logger.(Û§â€8Ÿ­âïË1
-F	java:S106%"+Replace this use of System.out by a logger.(ø¶´8øÛãïË1
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ë³¾³Ï1
+L	java:S106"+Replace this use of System.out by a logger.(«Ò®¾şÿÿÿÿ8ˆ¹ïË1
+G	java:S106"+Replace this use of System.out by a logger.(Û§â€8Ÿ­âïË1
+F	java:S106!"+Replace this use of System.out by a logger.(ø¶´8øÛãïË1
+L	java:S106/"+Replace this use of System.out by a logger.(ı™øøÿÿÿÿ8“´¾³Ï1

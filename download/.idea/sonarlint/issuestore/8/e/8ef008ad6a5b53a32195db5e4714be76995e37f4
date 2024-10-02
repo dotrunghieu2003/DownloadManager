@@ -1,8 +1,16 @@
 
+z
+java:S14889"]Immediately return this expression instead of assigning it to the temporary variable "input".(÷ÁÃş8åÒ¿³Ï1
 F	java:S106"+Replace this use of System.out by a logger.(°Õt8ššğË1
-L	java:S106%"+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8œšğË1
-F	java:S106("+Replace this use of System.out by a logger.(Ü²÷#8œšğË1
-L	java:S1066"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8šğË1
-L	java:S106B"+Replace this use of System.out by a logger.(±Å˜ªøÿÿÿÿ8¡šğË1
-G	java:S106J"+Replace this use of System.out by a logger.(„Ìè£8¡šğË1
-G	java:S106M"+Replace this use of System.out by a logger.(–Ÿ”­8–ŸğË1
+L	java:S106("+Replace this use of System.out by a logger.(î‡ó©ùÿÿÿÿ8œšğË1
+F	java:S106+"+Replace this use of System.out by a logger.(¿¨˜8¯Õ¿³Ï1
+L	java:S1068"+Replace this use of System.out by a logger.(»ªàçøÿÿÿÿ8²Õ¿³Ï1
+L	java:S106B"+Replace this use of System.out by a logger.(éí÷„ùÿÿÿÿ8¡šğË1
+G	java:S106E"+Replace this use of System.out by a logger.(ˆª¹Ş8¸Õ¿³Ï1
+L	java:S106S"+Replace this use of System.out by a logger.(±Å˜ªøÿÿÿÿ8¿Õ¿³Ï1
+L	java:S106]"+Replace this use of System.out by a logger.(õÛÄ…øÿÿÿÿ8ÂÕ¿³Ï1
+G	java:S106a"+Replace this use of System.out by a logger.(–Ÿ”­8–ŸğË1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ÄÕ¿³Ï1
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8ÄÕ¿³Ï1
